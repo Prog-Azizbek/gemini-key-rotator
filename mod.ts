@@ -117,4 +117,3 @@ serve(async (req: Request) => {
     return new Response("Internal error in key rotator", { status: 500 });
   }
 });
-
